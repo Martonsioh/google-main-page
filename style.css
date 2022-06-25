@@ -114,3 +114,17 @@ button:hover{
     border: 1px solid rgb(95,99,104);
     cursor: pointer;
 }
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 0.80em;
+    color: #e7e7e7;
+}
+.text a{
+    color: #8AB4F8;
+}
+.text a:hover{
+    text-decoration: underline;
+}
