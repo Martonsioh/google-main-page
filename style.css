@@ -83,6 +83,9 @@ main{
 }
 .search:hover{
     background-color: #303134;
+    box-shadow: 10px 7px 27px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 7px 27px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 7px 27px -7px rgba(0,0,0,0.75);
 }
 .search:hover #input{
 background-color: #303134;
@@ -90,9 +93,9 @@ background-color: #303134;
 input:focus{
     outline: none;
 }
-.fa-microphone{
-    width: 30px;
-    font-size: 18px;
+#microphone{
+    width: 12px;
+    margin-right: 10px;
 }
 .btn-div{
     display: flex;
@@ -120,11 +123,37 @@ button:hover{
     align-items: center;
     margin: 20px;
     font-size: 0.80em;
-    color: #e7e7e7;
+    color: #BDC1C6;
 }
 .text a{
     color: #8AB4F8;
+    padding: 5px;
 }
 .text a:hover{
     text-decoration: underline;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+.locate{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    color: #999DA2;
+    padding: 15px;
+    font-size: 0.9em;
+    background-color: #171717;
+    border-bottom: 1px solid #5f6368a4;
+}
+.container-list{
+    display: flex;
+    justify-content: space-between;
+    color: #999DA2;
+    padding: 15px;
+    background-color: #171717;
+}
+.container-list ul li{
+    margin: 0 12px;
 }
